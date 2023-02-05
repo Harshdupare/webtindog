@@ -1,0 +1,166 @@
+
+#title{
+    background-color:#FF597B;
+}
+
+#title:hover{
+    background-color: rgb(255, 38, 103);
+}
+
+.nav-link{
+    font-size: larger;
+}
+
+.navbar-brand{
+    font-size: xx-large;
+}
+
+.nav-item{
+    padding: 20px;
+}
+
+.container-fluid{
+    padding: 3% 15% 10%;
+}
+
+h1{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.phn{
+    transform: rotate(25deg);
+    width:20%;
+    /* padding: 20px; */
+    position: absolute;
+    right: 25%;
+}
+
+#features{
+    padding: 7% 15% ;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.icon{
+    color: #FF597B ;
+    margin-bottom: 15px;
+}
+
+.icon:hover{
+    color: rgb(253, 2, 2);
+}
+
+#testimonials{
+     
+    
+    text-align: center;
+    background-color: #FF597B;
+    color: #fff;
+}
+
+#testimonials:hover{
+    background-color: rgb(255, 38, 103);
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+#press{
+    background-color: #FF597B;
+    text-align: center;
+}
+
+#press:hover{
+    background-color: rgb(255, 38, 103);
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 10px 30px 10px;
+}
+
+.card-header{
+    padding: 10px;
+    text-align: center;
+}
+
+.card-body{
+    padding: 20px;
+    text-align: center;
+}
+
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+@media (max-width:992px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .phn{
+        position: static;
+        transform: rotate(0);
+        padding: 20px;
+        width:60%;
+    }
+    
+}
+
+#cta{
+    background-color: #FF597B ;
+    color:#fff;
+    text-align: center;
+    padding: 3% 15% 7%;
+}
+
+#cta:hover{
+    background-color: rgb(255, 38, 103);
+}
+
+.cta{
+    font-family: "Montserrat-bold";
+    font-size: 50px;
+    line-height: 3.15rem;
+    padding: 20px;
+}
+.btn-cta{
+    margin: 10px;
+}
+
+#footer{
+    text-align: center;
+    padding: 3% 15% 7%
+}
+
+.fa-t{
+    margin: 3px;
+}
+
+a{
+    color: black;
+}
+
